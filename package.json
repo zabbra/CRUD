@@ -1,0 +1,30 @@
+{
+  "name": "crud_app",
+  "version": "1.0.0",
+  "description": "application de crud  avec express et mongodb",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "crud",
+    "mongodb"
+  ],
+  "author": "enone idriss",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "bootstrap": "^5.1.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.6",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16",
+    "socket.io": "^4.5.1",
+    "validator": "^13.7.0"
+  }
+}
